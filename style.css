@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+.phone{
+    width: 300px;
+    height: 600px;
+    background-color: (0, 0%, 100%);
+    border-radius:20px ;
+    display: flex;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.texting{
+    width: 99%;
+    height: 99%;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 20px;
+}
+.top{
+    width:100%;
+    height: 30px;
+    background-color:hsl(271, 36%, 24%);
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.one{
+    width: 25%;
+    height: 100%;
+}
+.two{
+    width: 50%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white;
+    height: 100%;
+}
+.three{
+    width: 25%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    background-color:hsl(271, 36%, 24%) ;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.msg{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: hsl(270, 7%, 64%);
+    border-radius: 7px;
+    padding: 3px;
+}
+.images{
+    width:50%;
+    height:40px;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+img{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 1px;
+}
+.msg1{
+    width:70%;
+    height:45px;
+    background-color: hsl(270, 7%, 64%);
+    margin-left: 79px;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 3px;
+    margin-right: 20px;
+}
+.msg2{
+    width: 50%;
+    height:30px;
+    background-color: hsl(270, 7%, 64%);
+    margin-left: 135px;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 3px;
+}
+.msg3{ 
+    width: 65%;
+    background-color: hsl(270, 7%, 64%);
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 3px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.dollar{
+    width: 75%;
+    height: 35px;
+    background-color: hsl(271, 36%, 24%);
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px;
+}
+.txt{
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+}
+.price{
+    color: white;
+    font-weight: 700;
+}
+i{
+    color: white;
+    margin-right: 3px;
+}
+.send{
+    width:90%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+.circle{
+    width: 30px;
+    height:95%;
+    background-color: hsl(271, 36%, 24%);
+    border-radius:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
+#sbm{
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.typ{
+    margin-left: 10px;
+}
+.use{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px white;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.pt{
+    margin-bottom: 2px;
+    margin-top: 1px;
+    height:3px;
+    font-weight: 700;
+}
+.username{
+    margin-left: 10px;
+    margin-bottom: 3px;
+    width: 65%;
+    height: 100%; 
+}
+.ava{
+    font-weight: 200;
+    color: white;
+    font-size: 9px;
+
+}
+.samo{
+    font-weight: 700;
+    color: white;
+}
+    
+
+
